@@ -21,6 +21,8 @@
 		21C629D6282ABC5E004A8128 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629D5282ABC5E004A8128 /* CoinImageService.swift */; };
 		21C629D8282ABDA6004A8128 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629D7282ABDA6004A8128 /* CoinImageViewModel.swift */; };
 		21C629DA282AC20B004A8128 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629D9282AC20B004A8128 /* LocalFileManager.swift */; };
+		21C629DD282AC95F004A8128 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629DC282AC95F004A8128 /* SearchBarView.swift */; };
+		21C629DF282ACD5E004A8128 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629DE282ACD5E004A8128 /* UIApplication.swift */; };
 		21EC0ED328298A97008E0D75 /* CryptoWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC0ED228298A97008E0D75 /* CryptoWalletApp.swift */; };
 		21EC0ED528298A97008E0D75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC0ED428298A97008E0D75 /* ContentView.swift */; };
 		21EC0ED728298A97008E0D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC0ED628298A97008E0D75 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		21C629D5282ABC5E004A8128 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		21C629D7282ABDA6004A8128 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		21C629D9282AC20B004A8128 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		21C629DC282AC95F004A8128 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		21C629DE282ACD5E004A8128 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		21EC0ECF28298A97008E0D75 /* Crypto  Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto  Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC0ED228298A97008E0D75 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
 		21EC0ED428298A97008E0D75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 		21C629BB2829904D004A8128 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				21C629DB282AC949004A8128 /* SearchBar */,
 				21C629D2282ABAFA004A8128 /* CoinImage */,
 				21C629BC28299067004A8128 /* CircleButton */,
 			);
@@ -150,6 +155,14 @@
 			path = CoinImage;
 			sourceTree = "<group>";
 		};
+		21C629DB282AC949004A8128 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				21C629DC282AC95F004A8128 /* SearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
 		21EC0EC628298A97008E0D75 = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +209,7 @@
 				21EC0EE128298B9B008E0D75 /* Color.swift */,
 				21C629C62829C961004A8128 /* PreviewProvider.swift */,
 				21C629C82829CC95004A8128 /* Double.swift */,
+				21C629DE282ACD5E004A8128 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -278,8 +292,10 @@
 				21C629C72829C961004A8128 /* PreviewProvider.swift in Sources */,
 				21C629D4282ABB05004A8128 /* CoinImageView.swift in Sources */,
 				21C629BA28298EE4004A8128 /* HomeView.swift in Sources */,
+				21C629DF282ACD5E004A8128 /* UIApplication.swift in Sources */,
 				21EC0ED328298A97008E0D75 /* CryptoWalletApp.swift in Sources */,
 				21C629BE28299077004A8128 /* CircleButtonView.swift in Sources */,
+				21C629DD282AC95F004A8128 /* SearchBarView.swift in Sources */,
 				21C629D1282AB339004A8128 /* NetworkingManager.swift in Sources */,
 				21EC0EE228298B9B008E0D75 /* Color.swift in Sources */,
 				21C629D8282ABDA6004A8128 /* CoinImageViewModel.swift in Sources */,
