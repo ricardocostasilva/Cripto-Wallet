@@ -26,6 +26,8 @@
 		21C629E1282BC914004A8128 /* Statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629E0282BC914004A8128 /* Statistic.swift */; };
 		21C629E4282BCA3B004A8128 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629E3282BCA3B004A8128 /* StatisticView.swift */; };
 		21C629E6282BCC7E004A8128 /* HomeStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629E5282BCC7E004A8128 /* HomeStatView.swift */; };
+		21C629E8282BCEE4004A8128 /* MarketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629E7282BCEE4004A8128 /* MarketData.swift */; };
+		21C629EA282BD13F004A8128 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629E9282BD13F004A8128 /* MarketDataService.swift */; };
 		21EC0ED328298A97008E0D75 /* CryptoWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC0ED228298A97008E0D75 /* CryptoWalletApp.swift */; };
 		21EC0ED528298A97008E0D75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC0ED428298A97008E0D75 /* ContentView.swift */; };
 		21EC0ED728298A97008E0D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC0ED628298A97008E0D75 /* Assets.xcassets */; };
@@ -53,6 +55,8 @@
 		21C629E0282BC914004A8128 /* Statistic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic.swift; sourceTree = "<group>"; };
 		21C629E3282BCA3B004A8128 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		21C629E5282BCC7E004A8128 /* HomeStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatView.swift; sourceTree = "<group>"; };
+		21C629E7282BCEE4004A8128 /* MarketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketData.swift; sourceTree = "<group>"; };
+		21C629E9282BD13F004A8128 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		21EC0ECF28298A97008E0D75 /* Crypto  Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto  Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC0ED228298A97008E0D75 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
 		21EC0ED428298A97008E0D75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 			children = (
 				21C629C228299883004A8128 /* CoinModel.swift */,
 				21C629E0282BC914004A8128 /* Statistic.swift */,
+				21C629E7282BCEE4004A8128 /* MarketData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			children = (
 				21C629CD282AABA7004A8128 /* CoinDataService.swift */,
 				21C629D5282ABC5E004A8128 /* CoinImageService.swift */,
+				21C629E9282BD13F004A8128 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -304,6 +310,7 @@
 				21C629CE282AABA7004A8128 /* CoinDataService.swift in Sources */,
 				21C629C52829C902004A8128 /* CoinRowView.swift in Sources */,
 				21C629CB282AA585004A8128 /* HomeViewModel.swift in Sources */,
+				21C629E8282BCEE4004A8128 /* MarketData.swift in Sources */,
 				21EC0ED528298A97008E0D75 /* ContentView.swift in Sources */,
 				21C629DA282AC20B004A8128 /* LocalFileManager.swift in Sources */,
 				21C629C72829C961004A8128 /* PreviewProvider.swift in Sources */,
@@ -317,6 +324,7 @@
 				21C629E6282BCC7E004A8128 /* HomeStatView.swift in Sources */,
 				21C629D1282AB339004A8128 /* NetworkingManager.swift in Sources */,
 				21EC0EE228298B9B008E0D75 /* Color.swift in Sources */,
+				21C629EA282BD13F004A8128 /* MarketDataService.swift in Sources */,
 				21C629D8282ABDA6004A8128 /* CoinImageViewModel.swift in Sources */,
 				21C629C028299371004A8128 /* CircleButtonAnimationView.swift in Sources */,
 				21C629C92829CC95004A8128 /* Double.swift in Sources */,
