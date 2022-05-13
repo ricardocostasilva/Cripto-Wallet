@@ -33,6 +33,7 @@
 		21C629F4282C5A53004A8128 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21C629F2282C5A53004A8128 /* PortfolioContainer.xcdatamodeld */; };
 		21C629F6282C5AE9004A8128 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629F5282C5AE9004A8128 /* PortfolioDataService.swift */; };
 		21C629F8282C6BB8004A8128 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629F7282C6BB8004A8128 /* HapticManager.swift */; };
+		21C629FD282E9964004A8128 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C629FC282E9964004A8128 /* DetailView.swift */; };
 		21EC0ED328298A97008E0D75 /* CryptoWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC0ED228298A97008E0D75 /* CryptoWalletApp.swift */; };
 		21EC0ED528298A97008E0D75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC0ED428298A97008E0D75 /* ContentView.swift */; };
 		21EC0ED728298A97008E0D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC0ED628298A97008E0D75 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 		21C629F3282C5A53004A8128 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		21C629F5282C5AE9004A8128 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		21C629F7282C6BB8004A8128 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		21C629FC282E9964004A8128 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		21EC0ECF28298A97008E0D75 /* Crypto  Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto  Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC0ED228298A97008E0D75 /* CryptoWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletApp.swift; sourceTree = "<group>"; };
 		21EC0ED428298A97008E0D75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				21C629BB2829904D004A8128 /* Components */,
 				21C629B628298EC0004A8128 /* Home */,
+				21C629F9282E9935004A8128 /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -199,6 +202,30 @@
 				21C629E3282BCA3B004A8128 /* StatisticView.swift */,
 			);
 			path = Statistic;
+			sourceTree = "<group>";
+		};
+		21C629F9282E9935004A8128 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				21C629FA282E994A004A8128 /* ViewModel */,
+				21C629FB282E9952004A8128 /* Views */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		21C629FA282E994A004A8128 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		21C629FB282E9952004A8128 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21C629FC282E9964004A8128 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		21EC0EC628298A97008E0D75 = {
@@ -335,6 +362,7 @@
 				21C629E4282BCA3B004A8128 /* StatisticView.swift in Sources */,
 				21C629BA28298EE4004A8128 /* HomeView.swift in Sources */,
 				21C629DF282ACD5E004A8128 /* UIApplication.swift in Sources */,
+				21C629FD282E9964004A8128 /* DetailView.swift in Sources */,
 				21EC0ED328298A97008E0D75 /* CryptoWalletApp.swift in Sources */,
 				21C629BE28299077004A8128 /* CircleButtonView.swift in Sources */,
 				21C629DD282AC95F004A8128 /* SearchBarView.swift in Sources */,
