@@ -23,6 +23,7 @@ struct CryptoWalletApp: App {
                 HomeView()
                     .navigationBarHidden(true)
             }
+            .preferredColorScheme(.dark)
             .environmentObject(vm)
         }
     }
